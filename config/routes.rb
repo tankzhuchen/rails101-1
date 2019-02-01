@@ -14,6 +14,7 @@ Rails.application.routes.draw do
 
    namespace :accout do
      resources :groups
+     resources :posts
    end
 
 end
